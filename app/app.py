@@ -80,4 +80,4 @@ if __name__ == '__main__':
     # model = load('model_iris_dt.model')
     run_with_ngrok(app)
     # Run Flask di localhost
-    app.run(host="127.0.0.1", port=5000, debug=True)
+    app.run()
